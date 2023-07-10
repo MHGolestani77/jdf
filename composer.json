@@ -11,11 +11,13 @@
         }
     ],
     "require": {
-        "laravel/laravel": "*"
+        "php": ">=8.0",
+        "illuminate/support": "4.0.x"
     },
     "autoload": {
-        "psr-4": {
-            "mhgolestani77\\jdf\\": ""
+        "psr-0": {
+            "MHGolestani77\\Jdf": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
