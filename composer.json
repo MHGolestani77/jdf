@@ -1,0 +1,21 @@
+{
+    "name": "mhgolestani77/jdf",
+    "description": "JDF library for laravel",
+    "type": "jdf-extension",
+    "keywords": ["jdf","extension","date","jalali date","jDate"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Mohammad Hossein Golestani",
+            "email": "mhgolestani77@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/laravel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mhgolestani77\\jdf\\": ""
+        }
+    }
+}
